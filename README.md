@@ -1,6 +1,7 @@
 # SinCos Interpolator
-
 The SinCos Interpolator reads the analog signals from (e.g. Heidenhain) linear scales and converts them into digital quadrature signals. The design is based on the iC-NV chip by iC-Haus. This board performs essentially the same function as Heidenhain "EXE" converters. The design was created for Heidenhain LS 403 linear scales with 11 uA peak-to-peak signals. Through different component values and solder jumper configuration, it should be usable also for other linear scales and similar transducers.
+
+![Board 3d view](board3d.png)
 
 ## Disclaimer
 As of 2023-08-19, I have done preliminary tests on version 1.0 design and it appears to be working as expected. The version 1.1 design currently found here is yet untested. The main changes from version 1.0 is that RJ45 jacks are available for both input and output signals.
