@@ -4,7 +4,7 @@ The SinCos Interpolator reads the analog signals from (e.g. Heidenhain) linear s
 ![Board 3d view](board3d.png)
 
 ## Disclaimer
-As of 2023-08-22, the version 1.3 design currently found here is yet untested. Version 1.0 tested appeared to be otherwise working, but had power/ground swapped for the MC3487DX IC. A RJ45 jack for the encoder side has also been added since version 1.0.
+As of 2025-01-18, the latest version is 1.4 (which has RJ45 jacks rotated 180° compared to version 1.3). This design has been tested to a small extent and is working. However, there appears to be reason to make some accomodations for low pass filtering of the input signals. Version 1.0 tested appeared to be otherwise working, but had power/ground swapped for the MC3487DX IC. A RJ45 jack for the encoder side has also been added since version 1.0.
 
 ## Features
 - Converts analog sine/cosine signals into digital quadrature outputs
